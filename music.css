@@ -1,0 +1,72 @@
+.container {
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: black; 
+    max-width: 600px; 
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px; 
+    color:white;
+}
+h3 {
+    margin-bottom: 10px;
+    color:red;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+#audioPlayer {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+
+button {
+    background-color: pink; 
+    border: 5px white; 
+    cursor: pointer; 
+    margin: 5px; 
+}
+
+
+button img {
+    width: 20px; 
+    height: 30px; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+#songNameContainer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#songNameContainer li {
+    margin-bottom: 5px; 
+}
+
+#songNameContainer span {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: blue; 
+}
+.highlight {
+    background-color: pink;
+    font-weight: bold; 
+}
+li a {
+    margin-left: 10px; 
+}
+
+
